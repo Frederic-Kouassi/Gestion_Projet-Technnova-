@@ -1,0 +1,43 @@
+# Environnement virtuel
+env/
+venv/
+.venv/
+
+# Fichiers sensibles
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (optionnel - certains les gardent)
+# */migrations/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
